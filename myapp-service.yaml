@@ -6,7 +6,7 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 33333
+    nodePort: 32767
   type: NodePort
   selector:
     app: myapp
