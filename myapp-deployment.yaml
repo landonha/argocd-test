@@ -13,7 +13,7 @@ spec:
         app: landon-app
     spec:
       containers:
-      - image: registry.cn-shanghai.aliyuncs.com/public-namespace/myapp:v1
+      - image: docker.io/beaconfireiic/simple-spring-test:1.0.0-1-dev
         name: landon-app
         ports:
         - containerPort: 80
