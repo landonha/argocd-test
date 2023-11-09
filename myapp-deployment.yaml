@@ -16,4 +16,4 @@ spec:
       - image: docker.io/beaconfireiic/simple-spring-test:1.0.0-1-dev
         name: landon-app
         ports:
-        - containerPort: 80
+        - containerPort: 8080
